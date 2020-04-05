@@ -1,0 +1,181 @@
+font-face {
+    font-family: slim-joe;
+    src: url("../fonts/Slim Joe.otf");
+}
+@font-face {
+    font-family: big-john;
+    src: url("../fonts/BIG JOHN.otf");
+}
+@font-face {
+    font-family: Verlag-Book;
+    src: url("../fonts/Verlag Book.otf");
+}
+.slim-joe {
+    font-family: slim-joe;
+}
+.big-john{
+    font-family: big-john;
+}
+.verlag-book{
+    font-family: Verlag-Book;
+}
+.white{
+    color: white;
+}
+.gold{
+    color: #c5a47e;
+}
+.jumbotron-fluid{
+    background-image: url("../img/index/Jumbotron.jpg");
+    background-size: cover;  /*dit is een fix van internet om de background responsive te krijgen*/
+    background-position: top center;/* dit is een fix van internet om de background responsive te krijgen*/
+    width:100%;
+    height: 100vh;
+}
+.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.jumbotronlijn{
+    border: none;
+    height: 0.1rem;
+    color: white;
+    background-color: white;
+    width: 20%;
+}
+.btn-warning{
+    color: #c5a47e;
+    background-color: transparent;
+    border: #c5a47e solid thick;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.btn-warning:hover {
+    color: white;
+    background-color: #c5a47e;
+    border: #c5a47e solid thick;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.paddingjumbotrontext{
+    padding-top: 15%;
+}
+.textsizejumb {
+    font-size: 3rem;
+}
+.mbottomdetail{
+    padding-bottom: 5%;
+}
+
+
+.titel{
+    text-align: center;
+    font-family: Verlag-Book;
+    font-size: 200%;
+    margin-top: 7%;
+}
+
+hr.goudenlijn{
+    border: none;
+    height: 3px;
+    color: #c5a47e;
+    background-color: #c5a47e;
+    width: 20%;
+}
+.fotogeschiedenis {
+    border: solid #c5a47e 0.2rem;
+    margin-left: 12%;
+    margin-top: 25%;
+
+}
+
+
+.img-fluid-detail-groot {
+    max-width: 60%; !important;
+    height: auto;
+}
+.margingeschiedenis{margin-left: 5%}
+
+
+.bg-grey{
+    background-color: #eeeeee;
+}
+
+.img-fluid-detail-klein {
+    max-width: 45%; !important;
+    height: auto;
+}
+
+.fotokenmerken {
+    border: solid #c5a47e 0.2rem;
+    margin-left: 25%;
+    margin-top: 15%;
+
+}
+.fotowelzijn {
+    border: solid #c5a47e 0.2rem;
+    margin-left: 25%;
+    margin-top: 15%;
+
+}
+.fontsizesocial{
+    font-size: 300%;
+}
+.marginsocial{ margin-left: 0%; }
+
+html, body { overflow-x: hidden;  }
+.margincopy{margin-left: 2%}
+
+@media only screen and (max-width: 991px) {
+    .paddingjumbotrontext {
+        padding-top: 30%;
+    }
+    .fontsizesocial{
+        font-size: 150%;
+    }
+    .margincopy{margin-left: 5%}
+
+    .btn-warning {
+        background-color: transparent;
+        border: #c5a47e solid thick;
+        border-radius: 50%;
+        font-size: 3rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .btn-warning:hover{
+        color: white;
+        background-color: #c5a47e;
+        border: #c5a47e solid thick;
+        border-radius: 50%;
+        font-size: 3rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .fotogeschiedenis {
+        border: solid #c5a47e 0.2rem;
+        margin-left: 10%;
+        margin-top: 15%;
+
+    }
+    .margingeschiedenis{margin-left: 0%}
+
+
+    .img-fluid-detail-groot {
+        max-width: 80%; !important;
+        height: auto;
+    }
+
+
+
+    }
+
+
+

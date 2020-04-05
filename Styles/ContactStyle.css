@@ -1,0 +1,54 @@
+font-face {
+    font-family: slim-joe;
+    src: url("../fonts/Slim Joe.otf");
+}
+@font-face {
+    font-family: big-john;
+    src: url("../fonts/BIG JOHN.otf");
+}
+@font-face {
+    font-family: Verlag-Book;
+    src: url("../fonts/Verlag Book.otf");
+}
+
+body{
+    background-image: url("../img/index/Jumbotron.jpg");
+
+    background-size: cover;  /*dit is een fix van internet om de background responsive te krijgen*/
+    background-position: top center;/* dit is een fix van internet om de background responsive te krijgen*/
+    width:100%;
+    height: 100%;
+}
+
+.slim-joe {
+    font-family: slim-joe;
+}
+.big-john{
+    font-family: big-john;
+}
+.verlag-book{
+    font-family: Verlag-Book;
+}
+.white{
+    color: white;
+}
+.gold{
+    color: #c5a47e;
+}
+
+.contactcenter{
+    margin-top: 15%;
+}
+.marginsocialfooter{
+    margin-top: 9%;
+}
+.fontsizesocial{
+    font-size: 300%;
+}
+.marginsocial{ margin-left: 0%; }
+
+@media only screen and (max-width: 991px) {
+    .fontsizesocial {
+        font-size: 150%;
+    }
+}

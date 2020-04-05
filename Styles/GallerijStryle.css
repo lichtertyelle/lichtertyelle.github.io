@@ -1,0 +1,53 @@
+font-face {
+    font-family: slim-joe;
+    src: url("../fonts/Slim Joe.otf");
+}
+@font-face {
+    font-family: big-john;
+    src: url("../fonts/BIG JOHN.otf");
+}
+@font-face {
+    font-family: Verlag-Book;
+    src: url("../fonts/Verlag Book.otf");
+}
+.slim-joe {
+    font-family: slim-joe;
+}
+.big-john{
+    font-family: big-john;
+}
+.verlag-book{
+    font-family: Verlag-Book;
+}
+.white{
+    color: white;
+}
+.gold{
+    color: #c5a47e;
+}
+
+
+.paddingcontainer{
+    padding-top: 3.5%;
+}
+.fontsizesocial{
+    font-size: 300%;
+}
+.gold{
+    color: #c5a47e;
+}
+
+.margincopy{
+    margin-left: 2.5%;
+}
+html, body { overflow-x: hidden;  }
+
+@media only screen and (max-width: 991px) {
+    .fontsizesocial{
+        font-size: 150%;
+    }
+
+    .paddingcontainer{
+        padding-top: 15%;
+    }
+}
